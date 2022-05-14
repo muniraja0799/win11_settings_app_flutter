@@ -7,6 +7,7 @@ environment:
 
 dependencies: 
   cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.1.6
   get: 4.6.1
   bitsdojo_window_flutter3:
     git:
@@ -18,6 +19,7 @@ dependencies:
 dev_dependencies: 
   flutter_lints: ^2.0.0
   icons_launcher: ^1.1.7
+  
   lints: 2.0.0
   flutter_test: 
     sdk: flutter

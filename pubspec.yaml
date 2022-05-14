@@ -1,0 +1,38 @@
+name: win11_settings
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  bitsdojo_window_flutter3:
+    git:
+      url: https://github.com/aryan-more/bitsdojo_window.git
+      ref: master
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  icons_launcher: ^1.1.7
+  lints: 2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter_icons:
+  image_path: 'assets/icons/Settings.ico'
+  ios: true
+  android: true
+  windows: true
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+
+
